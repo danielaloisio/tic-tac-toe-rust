@@ -35,9 +35,9 @@ fn main() {
 	    }
 	}
 	       
-            clear_screen();
-            print_board(&mut pos);
-	}
+        clear_screen();
+        print_board(&mut pos);
+   }
 }
 
 
@@ -95,7 +95,7 @@ fn check_status(pos: &mut MutexGuard<[&str; 10]>) -> i32 {
 	return 2;
    }
 
-        return -1;
+   return -1;
 }
 
 fn clear_screen() {
